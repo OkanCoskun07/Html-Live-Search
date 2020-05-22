@@ -1,0 +1,58 @@
+.datatable{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+.datatable td{
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+.datatable thead th{
+    border: 1px solid white;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+.datatable tr:nth-of-type(odd){
+    background-color: grey;
+}
+
+.datatable tr:nth-of-type(odd):hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.datatable tr:nth-of-type(even):hover{
+    background-color: darkorange;
+    cursor: pointer;
+}
+ul li{
+    display: inline-block;
+}
+.pagin li{
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.pagin li a{
+    padding: 15px;
+    border: 1px solid black;
+}
+.current{
+    color: black;
+    background: blue;
+}
+.current1{
+    color: black;
+    background: blue;
+}
+.goster{
+    display: inline-block;
+}
+.gizle{
+    display: none;
+}
+
